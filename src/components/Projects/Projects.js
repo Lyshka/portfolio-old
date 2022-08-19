@@ -11,7 +11,7 @@ const Projects = () => (
 				<BlogCard key={id}>
 					<Img src={image} />
 					<TitleContent>
-						<HeaderThree title>{title}</HeaderThree>
+						<HeaderThree>{title}</HeaderThree>
 						<Hr />
 					</TitleContent>
 					<div>
