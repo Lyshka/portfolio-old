@@ -116,6 +116,42 @@ export const projects = [
 		visit: 'https://github.com/Lyshka/todo-app',
 		id: 12,
 	},
+	{
+		title: 'Bank',
+		description: "",
+		image: '/images/14.jpg',
+		tags: ['React', "Vite", 'Tailwind'],
+		source: 'https://fancy-lebkuchen-393683.netlify.app/',
+		visit: 'https://github.com/Lyshka/bank',
+		id: 13,
+	},
+	{
+		title: 'Blockchain Transaction',
+		description: "",
+		image: '/images/15.jpg',
+		tags: ['React', "Vite", "Ethers", 'Tailwind'],
+		source: 'https://wondrous-dolphin-639320.netlify.app/',
+		visit: 'https://github.com/Lyshka/blockchain-transaction',
+		id: 14,
+	},
+	{
+		title: 'Tic Tac Toe',
+		description: "",
+		image: '/images/16.jpg',
+		tags: ['React', "Next", "TypeScript"],
+		source: 'https://tic-tac-toe-lyshka.vercel.app/',
+		visit: 'https://github.com/Lyshka/tic-tac-toe',
+		id: 15,
+	},
+	{
+		title: 'Blog',
+		description: "",
+		image: '/images/17.jpg',
+		tags: ['React', "Next", "GraphQL", "TypeScript", "Tailwind"],
+		source: 'https://blog-cms-graphql.vercel.app/',
+		visit: 'https://github.com/Lyshka/blog-cms-graphql',
+		id: 16,
+	},
 ];
 
 export const TimeLineData = [
