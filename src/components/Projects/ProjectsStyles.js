@@ -1,5 +1,13 @@
 import styled from 'styled-components';
 
+export const ImgContainer = styled.div`
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+`
+
 export const Img = styled.img`
   width:100%;
   height:100%;
@@ -103,11 +111,11 @@ transition: 0.5s;
 
 export const TagList = styled.ul`
 display: flex;
-justify-content: space-around;
-padding: 2rem;
+flex-direction: column;
+justify-content: center;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
-padding: 3px;
+padding: 5px;
 `

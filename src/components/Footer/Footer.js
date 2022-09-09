@@ -1,8 +1,8 @@
-import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
-import {SiFreelancer, SiTelegram} from "react-icons/si"
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { SiFreelancer, SiTelegram, SiCodewars } from "react-icons/si"
 
-import {SocialIcons} from '../Header/HeaderStyles';
-import {CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, SocialContainer, SocialIconsContainer} from './FooterStyles';
+import { SocialIcons } from '../Header/HeaderStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
 	return (
@@ -35,6 +35,9 @@ const Footer = () => {
 					</SocialIcons>
 					<SocialIcons href='https://t.me/Aim_Lyshka' target={"_blank"}>
 						<SiTelegram size={"3rem"} />
+					</SocialIcons>
+					<SocialIcons href='https://www.codewars.com/users/Aim_Lyshka' target={"_blank"}>
+						<SiCodewars size={"3rem"} />
 					</SocialIcons>
 				</SocialContainer>
 			</SocialIconsContainer>

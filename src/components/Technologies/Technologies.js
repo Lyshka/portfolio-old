@@ -44,9 +44,11 @@ const Technologies = () => (
 						Node,
 						Firebase,
 						Rest API,
+						GraphQL,
 						and Databases:
 							Sanity,
-							Mongo DB,
+							Mongo DB
+							more CMS.
 					</ListParagraph>
 				</ListContainer>
 			</ListItem>
@@ -63,7 +65,7 @@ const Technologies = () => (
 						Photoshop,
 						Illustrator,
 						Adobe After Effects,
-						Blender
+						Blender.
 					</ListParagraph>
 				</ListContainer>
 			</ListItem>

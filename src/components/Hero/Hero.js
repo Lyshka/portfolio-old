@@ -7,7 +7,7 @@ const Hero = () => (
 			<LeftSection>
 				<SectionTitle main center>
 					Welcome<br />
-					I'm Lyshka, an aspiring full stack developer
+					I'm Lyshka, an aspiring full stack and mobile developer
 				</SectionTitle>
 				<SectionText>
 					The portfolio shows my developed projects, as well as my skills in the field of web development and mobile.
